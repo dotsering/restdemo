@@ -11,4 +11,9 @@ public class HelloController {
     public String getHello() {
         return "hello dorjee";
     }
+
+    @GetMapping("/hey")
+    public String getHey() {
+        return "Hey Dorjee";
+    }
 }
