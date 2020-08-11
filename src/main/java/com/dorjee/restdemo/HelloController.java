@@ -16,4 +16,10 @@ public class HelloController {
     public String getHey() {
         return "Hey Dorjee";
     }
+
+
+    @GetMapping("/jay")
+    public String getJayy() {
+        return "Hey Jay";
+    }
 }
